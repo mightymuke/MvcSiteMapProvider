@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<mvcSiteMap xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0" enableLocalization="true">
+  <mvcSiteMapNode title="Home" controller="Home" action="Index">
+    <mvcSiteMapNode title="Home" controller="Home" action="Index"/>
+    <mvcSiteMapNode title="Administration" clickable="false">
+      <mvcSiteMapNode title="Employee" controller="Personnel" action="Index">
+        <mvcSiteMapNode title="New Employee" controller="Personnel" action="Create" />
+      </mvcSiteMapNode>
+      <mvcSiteMapNode title="Holiday" controller="Holidays" action="Index">
+        <mvcSiteMapNode title="New Holiday" controller="Holidays" action="HolidayNew" />
+      </mvcSiteMapNode>
+    </mvcSiteMapNode>
+  </mvcSiteMapNode>
+</mvcSiteMap>
